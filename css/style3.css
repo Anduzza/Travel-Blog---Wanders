@@ -1,0 +1,91 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  background: #f2f4f5;
+}
+h3 {
+  font-family: "PT Serif",serif;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f9fcfb;
+}
+
+p {
+  color: #f4f3f3;
+  text-align: center;
+}
+
+.feedback-page {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback {
+  height: 550px;
+  margin: 30px 15px;
+  background-color: #c19898;
+}
+
+.details {
+  color: #f9fcfb;
+}
+
+.submit-button {
+  margin-top: 25px;
+  background-color: #d6cec4;
+  color: white;
+
+}
+.submit-button:hover {
+  background-color: #838383;
+  color: white;
+  border: none;
+
+}
+
+/* Message page */
+
+.message-page {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  height: 400px;
+  padding-top: 100px;
+  margin: 100px 15px;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.check-sign {
+  padding-bottom: 50px;
+  color: #c19898;
+}
+
+.sent {
+  color: #c19898;
+  font-size: 18px;
+}
+
+/* Subscription Page */
+
+.mail-sign {
+  padding-bottom: 50px;
+  color: #c19898;
+}
+
+@media only screen and (max-width: 825px) {
+
+  .message {
+    margin: 90px 13px;
+  }
+
+  .feedback {
+    margin: 15px;
+  }
+}

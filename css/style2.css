@@ -1,0 +1,113 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  background: #f2f4f5;
+}
+
+h3 {
+  font-family: "PT Serif",serif;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #838383;
+}
+
+h5 {
+  font-family: "PT Serif",serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: #d6d2c4;
+}
+
+.contact-page {
+  diplay: flex;
+  justify-content: center;
+}
+
+/* Comment Form */
+.comment-form {
+  /* width: 300px; */
+  height:500px;
+  padding-left: 15px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+.details {
+  color: #838383;
+}
+.submit-button {
+  background-color: #d6d2c4;
+
+}
+.submit-button:hover {
+  background-color: #c19898;
+  border: none;
+
+}
+/* Contact Info */
+
+.contact-info {
+  list-style-type: none;
+}
+
+.info-text {
+  font-size: 18px;
+  float: right;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+
+.icon {
+  position: relative;
+  top: 2px;
+  bottom: 2px;
+  color: #d6d2c4;
+}
+
+.icon:hover {
+  color: #835858;
+}
+
+.info {
+  /* margin-left: 15px; */
+  margin-top: 40px;
+  height: 500px;
+  background-color: #c19898;
+  border-radius: 20px;
+}
+
+/* Social Media */
+
+.social-media {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.social-icon {
+  color: #d6d2c4;
+  padding: 3px 6px;
+}
+
+.social-icon:hover {
+  color: #835858;
+}
+
+@media only screen and (max-width: 825px) {
+  .info {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .comment-form {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+  }
+}
